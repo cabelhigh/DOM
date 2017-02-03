@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Car Simulator</title>
+    <script type="text/javascript" src="car.js"></script>
+  </head>
+  <body>
+    <!--
+    Title
+    Three inputs for make, model, and year
+    Output
+    -->
+    <h1>Car Simulator</h1>
+    <input id="year" type="text" placeholder="Year">
+    <input id="make" type="text" placeholder="Make">
+    <input id="model" type="text" placeholder="Model">
+    <input type="button" value="Submit" onclick="carMaker()">
+    <h2 id="output"></h2>
+    <input id="gas" type="button" value="Gas" onclick="accelerateCar()" style="visibility: hidden;">
+    <input id="brake" type="button" value="Brake" onclick="brakeCar()"
+    style="visibility: hidden;">
+
+  </body>
+</html>
